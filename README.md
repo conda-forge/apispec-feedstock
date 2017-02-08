@@ -13,6 +13,18 @@ A pluggable API specification generator. Currently supports the OpenAPI
 specification (f.k.a. Swagger 2.0).
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/apispec-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/apispec-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/apispec-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/apispec-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/apispec-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/apispec-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/version.svg)](https://anaconda.org/conda-forge/apispec)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/downloads.svg)](https://anaconda.org/conda-forge/apispec)
+
 Installing apispec
 ==================
 
@@ -68,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/apispec-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/apispec-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/apispec-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/apispec-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/apispec-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/apispec-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/version.svg)](https://anaconda.org/conda-forge/apispec)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/downloads.svg)](https://anaconda.org/conda-forge/apispec)
 
 
 Updating apispec-feedstock
