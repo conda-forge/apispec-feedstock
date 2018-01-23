@@ -1,6 +1,6 @@
 {% set name = "apispec" %}
-{% set version = "0.27.1" %}
-{% set sha256 = "878e525c6f171afdb5ac99001c05a4fdc2d2ede373fe6c862f282940b2f9ab19" %}
+{% set version = "0.29" %}
+{% set sha256 = "a20442d503e6fd8f09058b5ddb1890166c3ebbd6db200b454651a0afb190de09" %}
 
 package:
   name: {{ name|lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -43,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - frol
+    - rth
