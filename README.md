@@ -16,9 +16,7 @@ specification (f.k.a. Swagger 2.0).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/apispec-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/apispec-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/apispec-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/apispec-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/apispec-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/apispec-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/apispec-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/apispec-feedstock)
 
 Current release info
 ====================
