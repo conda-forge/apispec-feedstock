@@ -16,14 +16,16 @@ specification (f.k.a. Swagger 2.0).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/apispec-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/apispec-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/apispec-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/apispec-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/apispec-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/apispec-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/apispec-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/apispec-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/apispec-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/apispec-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/apispec-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/apispec-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/version.svg)](https://anaconda.org/conda-forge/apispec)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/apispec/badges/downloads.svg)](https://anaconda.org/conda-forge/apispec)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-apispec-green.svg)](https://anaconda.org/conda-forge/apispec) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/apispec.svg)](https://anaconda.org/conda-forge/apispec) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/apispec.svg)](https://anaconda.org/conda-forge/apispec) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/apispec.svg)](https://anaconda.org/conda-forge/apispec) |
 
 Installing apispec
 ==================
