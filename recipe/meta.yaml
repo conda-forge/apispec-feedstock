@@ -1,6 +1,6 @@
 {% set name = "apispec" %}
-{% set version = "0.36.0" %}
-{% set sha256 = "35497e8cea2d9da6e923b294102b5098aa92af18038627f58ea9c52a4fc6d2e4" %}
+{% set version = "0.37.0" %}
+{% set sha256 = "75e92e629e2baceeeb3a9beeda26c9ba7225482f3d6497fa7b29873c4dc9c6d3" %}
 
 package:
   name: {{ name|lower }}
