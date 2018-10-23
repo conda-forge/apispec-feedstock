@@ -1,6 +1,6 @@
 {% set name = "apispec" %}
-{% set version = "0.39.0" %}
-{% set sha256 = "1661bc574b1579ef72883aafd87c0178d1c129659cd4f1c76a68fcc852e1b4ed" %}
+{% set version = "1.0.0b3" %}
+{% set sha256 = "fa7dfa8a292bae9b1e70c44a50bf61901805821726c5b804568c9f2501f57ebb" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
