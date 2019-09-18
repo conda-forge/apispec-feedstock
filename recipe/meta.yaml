@@ -17,11 +17,11 @@ build:
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - pyyaml >=3.10
 
 test:
