@@ -5,7 +5,7 @@ Home: https://github.com/marshmallow-code/apispec
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A pluggable API specification generator
 
