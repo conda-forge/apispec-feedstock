@@ -5,9 +5,13 @@ Home: https://github.com/marshmallow-code/apispec
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apispec-feedstock/blob/master/LICENSE.txt)
 
 Summary: A pluggable API specification generator
+
+Development: https://github.com/marshmallow-code/apispec
+
+Documentation: http://apispec.readthedocs.io/
 
 A pluggable API specification generator. Currently supports the OpenAPI
 specification (f.k.a. Swagger 2.0).
