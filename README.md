@@ -1,11 +1,11 @@
-About apispec
-=============
+About apispec-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apispec-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/marshmallow-code/apispec
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/apispec-feedstock/blob/main/LICENSE.txt)
 
 Summary: A pluggable API specification generator
 
@@ -152,6 +152,6 @@ Feedstock Maintainers
 =====================
 
 * [@carlodri](https://github.com/carlodri/)
-* [@frol](https://github.com/frol/)
 * [@rth](https://github.com/rth/)
+* [@xylar](https://github.com/xylar/)
 
