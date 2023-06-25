@@ -41,6 +41,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - xylar
     - frol
     - rth
     - carlodri
