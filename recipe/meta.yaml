@@ -11,16 +11,16 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - flit-core <4
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - packaging >=21.3
     # yaml extra:
     - pyyaml >=3.10
