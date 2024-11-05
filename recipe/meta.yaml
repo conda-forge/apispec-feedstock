@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/apispec-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apispec-{{ version }}.tar.gz
   sha256: c01b8b6ff40ffedf55b79a67f9dd920e9b2fc3909aae116facf6c8372a08b933
 
 build:
