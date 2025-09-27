@@ -1,5 +1,5 @@
 {% set name = "apispec" %}
-{% set version = "6.8.3" %}
+{% set version = "6.8.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/apispec-{{ version }}.tar.gz
-  sha256: 0823235aa171187fc0fb1dfd28211ebcf5fe7768b2a7e1929d06671e162439ae
+  sha256: fd0ed14af71a2949d9aeb96b72ce1517cb4a48a5c55667cd0483b7ed33156a2a
 
 build:
   noarch: python
