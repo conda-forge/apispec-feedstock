@@ -16,7 +16,6 @@ Documentation: http://apispec.readthedocs.io/
 A pluggable API specification generator. Currently supports the OpenAPI
 specification (f.k.a. Swagger 2.0).
 
-
 Current build status
 ====================
 
