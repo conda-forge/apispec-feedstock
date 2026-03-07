@@ -25,6 +25,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - packaging >=21.3
+    # yaml extra:
+    - pyyaml >=3.10
 tests:
   - python:
       imports:
