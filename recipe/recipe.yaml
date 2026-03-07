@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: apispec
-  version: 6.9.0
+  version: 6.10.0
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/apispec-${{ version }}.tar.gz
-  sha256: 7a38ce7c3eedc7771e6e33295afdd8c4b0acdd9865b483f8cf6cc369c93e8d1e
+  sha256: 0a888555cd4aa5fb7176041be15684154fd8961055e1672e703abf737e8761bf
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -27,7 +27,6 @@ requirements:
     - packaging >=21.3
     # yaml extra:
     - pyyaml >=3.10
-
 tests:
   - python:
       imports:
